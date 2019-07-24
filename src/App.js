@@ -39,7 +39,7 @@ class App extends Component{
     this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] });
   }
 
-  render() {
+  render() { 
     //console.log(this.state.todos)
     return(
       <div className = "App">
